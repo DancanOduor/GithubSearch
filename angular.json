@@ -118,8 +118,17 @@
               "devServerTarget": "git-google:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/git-google",
+            "netlifyToken": "d8491bcfba0c874d9076e84f38aad8657cdee46496f3f78ebada1cbbb8439024",
+            "siteId": "5145274b-0381-4d08-a192-937d22ce987d"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "git-google"
 }
