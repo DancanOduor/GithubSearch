@@ -19,7 +19,7 @@ Install npm packages using 'npm install' command.
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
 |Landing page loads with Home, User and Repositories links| click on any | Respective template gets displayed|
-|Search bar| Key up/ type the user details| a realtime suggestions gets rendered while typing |
+|Search bar input| Key up/ type the user details| a realtime suggestions gets rendered while typing |
 
 
 ## Technologies used
