@@ -8,11 +8,15 @@ import { ProfileService } from './services/profile.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { DateCountPipe } from './date-count.pipe';
+import { BackgroundColorDirective } from './background-color.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    DateCountPipe,
+    BackgroundColorDirective
   ],
   imports: [
     BrowserModule,
